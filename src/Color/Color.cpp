@@ -49,10 +49,10 @@ void Color::print()const
 }
 
 // FColorに変換
-FColor& Color::toFColor()
+/*FColor& Color::toFColor()
 {
 	return *new FColor(this->r/255.0f,this->g/255.0f,this->b/255.0f);
-}
+}*/
 
 // +operator
 // 各要素の和を返す

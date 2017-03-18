@@ -1,9 +1,9 @@
 #pragma once 
-#include "../FColor/FColor.h"
+//#include "../FColor/FColor.h"
 
 #include <iostream>
 
-struct FColor;
+//struct FColor;
 
 typedef struct Color{
 	unsigned char r;
@@ -17,7 +17,7 @@ typedef struct Color{
 
 	void set(unsigned char,unsigned char,unsigned char);// 色の設定
 	void print() const; //出力
-	FColor& toFColor();// FColorに変換
+	//FColor& toFColor();// FColorに変換
 
 	Color& operator+(const Color&)const;// 足し算
 	Color& operator-(const Color&)const;// 引き算
